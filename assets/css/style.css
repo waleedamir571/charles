@@ -2079,7 +2079,7 @@ aside li {
 /* 1.10. Testimonials section */
 .Testimonials {
     padding: 100px 0px;
-    background: url("../images/bg/arrow-right.png");
+    /* background: url("../images/bg/arrow-right.png"); */
     background-position: center 100%;
     background-repeat: no-repeat;
     /* text-align: center; */
@@ -2191,7 +2191,7 @@ aside li {
 }
 
 .Testimonials {
-    background: url("../images/bg/arrow-left.png");
+    /* background: url("../images/bg/arrow-left.png"); */
     background-position: center 100%;
     background-repeat: no-repeat;
 }
