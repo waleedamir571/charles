@@ -65,11 +65,11 @@
  */
 
 
-.bgblue{
+.bgblue {
     background-color: #4F84CA;
 }
 
-.head{
+.head {
     color: #FFF;
     transition: all 0.3s ease;
     color: #FFF;
@@ -96,6 +96,7 @@
     overflow: hidden;
     padding: 20px 0;
 }
+
 .swiper-slide {
     position: relative;
     border-radius: 10px;
@@ -103,11 +104,13 @@
     background: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .swiper-slide img {
     width: 100%;
     height: auto;
     display: block;
 }
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -118,19 +121,23 @@
     color: white;
     font-size: 14px;
 }
-.swiper-button-next, .swiper-button-prev {
+
+.swiper-button-next,
+.swiper-button-prev {
     background: rgba(0, 0, 0, 0.6);
     color: white;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
+
 .nav-buttons {
     display: flex;
     gap: 10px;
     justify-content: flex-start;
     margin-top: 20px;
 }
+
 .nav-buttons button {
     width: 60px;
     height: 60px;
@@ -141,13 +148,14 @@
     cursor: pointer;
 }
 
-.ftext{
+.ftext {
     color: #FFF;
 
-font-size: 22px;
-font-style: normal;
-font-weight: 300;
-line-height: 33px; /* 150% */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33px;
+    /* 150% */
 }
 
 
@@ -159,11 +167,12 @@ line-height: 33px; /* 150% */
     /* border-bottom: 1px solid white; */
 }
 
-.pb-10{
+.pb-10 {
     padding-bottom: 10px;
-   
+
 }
-.pr-10{
+
+.pr-10 {
     padding-right: 10px;
 }
 
@@ -172,26 +181,28 @@ line-height: 33px; /* 150% */
     font-size: 73px;
     font-weight: 700;
     line-height: 1.3;
-  
+
     color: white;
 }
-.w-75{
+
+.w-75 {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 75%;
 }
 
-.pb-30{
+.pb-30 {
     padding-top: 30px;
 }
 
-.card-text1{
+.card-text1 {
     color: black !important;
     font-size: 19px;
     font-weight: 400;
 }
-.efficiency{
+
+.efficiency {
     color: #000 !important;
     text-align: center;
     font-size: 27px;
@@ -201,23 +212,23 @@ line-height: 33px; /* 150% */
 
 }
 
-.fully{
- 
-        color: #1141BE;
-        margin-bottom: 25px;
-        font-size: 26px;
-        font-weight: 600;
-        text-transform: capitalize;
-    
+.fully {
+
+    color: #1141BE;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+
 }
 
-.packaging{
+.packaging {
     font-size: 23px;
     font-weight: 600;
     color: #004AAD;
 }
 
-.about-heading{
+.about-heading {
     font-size: 55px;
     font-weight: 600;
     color: #000 !important;
@@ -235,8 +246,7 @@ line-height: 33px; /* 150% */
     height: 90px;
     border: 2px solid #E4E4E4;
     border-radius: 50%;
-    display: flex
-;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto -20px;
@@ -245,7 +255,7 @@ line-height: 33px; /* 150% */
     font-size: 25px;
 }
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
@@ -296,9 +306,9 @@ line-height: 33px; /* 150% */
 
 header a.active,
 header a:hover {
-   
-        color: #fff !important;
-   
+
+    color: #fff !important;
+
 }
 
 .navbar .container-fluid button {
@@ -429,7 +439,7 @@ aside li {
     }
 
     .navbar .nav-logo {
-        flex-grow: 1;
+        flex-grow: 0;
     }
 }
 
@@ -845,7 +855,7 @@ aside li {
     width: 100%;
 }
 
-.dark-color{
+.dark-color {
     color: #004AAD;
 }
 
@@ -2309,9 +2319,122 @@ aside li {
     }
 }
 
-@media (max-width: 360px) {
+@media (min-width:320px) and (max-width: 480px) {
     .Testimonials figure {
         width: 100%;
+    }
+
+    .w-51{
+        width: 50%;
+    }
+
+    aside #sideNav {
+        width: 242px;
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: -355px;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding: 20px;
+        z-index: 99;
+        background-color: #41AEFF;
+    }
+
+    .ptb-15 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .Guide {
+        background: url(../images/index/bgtruck.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 290px 0px;
+        position: relative;
+        height: 65vh !important;
+    }
+
+    .Hero {
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+    .d-none1 {
+        display: none;
+    }
+
+    .get {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.3;
+        color: white;
+    }
+
+    .pb-20 {
+        padding-bottom: 20px;
+    }
+
+    .video-play-button {
+        position: absolute;
+        z-index: 10;
+        bottom: -10rem !important;
+        left: 134% !important;
+        transform: translateX(-50%) translateY(-50%) scale(1.3);
+        box-sizing: content-box;
+        display: block;
+        width: 16px;
+        height: 27px;
+        border-radius: 50%;
+        padding: 18px 20px 18px 28px;
+        background-color: #FFF;
+        cursor: pointer;
+    }
+
+    .head {
+        color: #FFF;
+        transition: all 0.3s ease;
+        color: #FFF;
+        font-family: Outfit;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        /* letter-spacing: -0.572px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .fully {
+        color: #1141BE;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+
+    .card-circle {
+        width: 20px !important;
+        height: 20px;
+        border: 2px solid #E4E4E4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto -20px;
+        background: #fff;
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .about-heading {
+        font-size: 27px;
+        font-weight: 600;
+        color: #000 !important;
+        line-height: 1.3;
     }
 
     .Testimonials figure img {
@@ -2476,7 +2599,7 @@ aside li {
 
 /* End of 1.11. Team section */
 
-.baseline{
+.baseline {
     align-items: baseline;
 }
 
@@ -2681,7 +2804,7 @@ aside li {
     }
 
     .Guide .video-play-button {
-        transform: translateX(-50%) translateY(-50%) scale(1);
+        transform: translateX(-49%) translateY(50%) scale(1);
     }
 
     .Guide iframe {
@@ -3288,6 +3411,7 @@ footer a {
     text-transform: capitalize;
     /* line-height: 1.9; */
 }
+
 footer a:hover h4,
 footer a:hover p,
 footer a:hover i,
@@ -3327,13 +3451,14 @@ footer hr {
     margin: 0px;
 }
 
-.services{
+.services {
     color: #FFF;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: 45px; /* 136.364% */
-letter-spacing: -0.572px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 136.364% */
+    letter-spacing: -0.572px;
 }
 
 footer .flex-wrap hr {
