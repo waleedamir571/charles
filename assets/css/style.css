@@ -64,10 +64,181 @@
 
  */
 
+  .contact-info {
+    background-color: #e9f1fb;
+    border-radius: 10px;
+    padding: 40px;
+    /* margin: 50px auto; */
+    /* max-width: 1000px; */
+    height: 8rem;
+}
+
+.pt-60{
+    padding-bottom: 60px;
+}
+
+.info-text {
+    padding-left: 15px;
+}
+
+
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .icon-box {
+      width: 40px;
+      height: 50px;
+      /* background-color: #0046b5; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+    }
+
+    .icon-box i {
+      color: #fff;
+      font-size: 22px;
+    }
+
+    .info-text h5 {
+      margin: 0;
+      font-weight: 700;
+      color: #000;
+    }
+
+    .info-text p {
+      margin: 0;
+      color: #333;
+      font-size: 14px;
+    }
+
+    @media (max-width: 767px) {
+      .info-item {
+        margin-bottom: 20px;
+      }
+    }
+
+ .pt-50{
+    padding-top: 50px;
+ }
+.message{
+    color: #004AAD;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.lorem{
+    font-size: 22px;
+    font-weight: 400;
+}
 
 .bgblue {
     background-color: #4F84CA;
 }
+
+  .request-section {
+      max-width: 700px;
+      margin: 60px auto;
+    }
+
+    .request-section h2 {
+      color: #0056d2;
+      font-weight: 700;
+    }
+
+    .request-section p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .form-control {
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+
+    textarea.form-control {
+      height: 120px;
+      resize: none;
+    }
+
+    .btn-primary {
+      background-color: #0056d2;
+      border: none;
+      width: 100%;
+      border-radius: 8px;
+      padding: 10px;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background-color: #0041a3;
+    }
+
+
+    .Hero4 {
+   background: url(../images/About/blog.png) !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px 0px 100px !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Hero4 .container a {
+    margin: 40px 0px;
+}
+
+
+.Hero3 {
+   background: url(../images/About/contact.png) !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px 0px 100px !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Hero3 .container a {
+    margin: 40px 0px;
+}
+
+
+.Hero1 {
+   background: url(../images/About/about.png) !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px 0px 100px !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Hero1::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 67%;
+    position: absolute;
+    /* background: linear-gradient(90deg, #000000 -14.3%, rgba(0, 0, 0, 0.74) 41.8%, rgba(0, 0, 0, 0.21) 100.18%); */
+    background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
+    z-index: 0;
+}
+
+.Hero1 .container a {
+    margin: 40px 0px;
+}
+
+
+
 
 .head {
     color: #FFF;
@@ -543,6 +714,33 @@ aside li {
     /* padding: 160px 0px 100px; */
     overflow-x: hidden;
     position: relative;
+}
+
+.Hero .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures video covers area like background-image */
+  z-index: -1;
+}
+
+
+.Hero::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 67%;
+    position: absolute;
+    /* background: linear-gradient(90deg, #000000 -14.3%, rgba(0, 0, 0, 0.74) 41.8%, rgba(0, 0, 0, 0.21) 100.18%); */
+    background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
+    z-index: 0;
+}
+
+.Hero .container a {
+    margin: 40px 0px;
 }
 
 .Hero::before {
@@ -2328,6 +2526,25 @@ aside li {
         width: 50%;
     }
 
+    .flinks {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1;
+    text-transform: capitalize;
+    /* line-height: 1.9; */
+}
+
+    footer p {
+    color: #FFF;
+    transition: all 0.3s 
+ease;
+    padding-top: 5px;
+}
+
+
+
     aside #sideNav {
         width: 242px;
         position: fixed;
@@ -2338,7 +2555,7 @@ aside li {
         transition: 0.5s;
         padding: 20px;
         z-index: 99;
-        background-color: #41AEFF;
+        background-color: black;
     }
 
     .ptb-15 {
@@ -3391,7 +3608,7 @@ footer h4 {
 footer p {
     color: #FFF;
     transition: all 0.3s ease;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 footer a {
@@ -3404,10 +3621,10 @@ footer a {
 
 .flinks {
     color: #FFF;
-    font-size: 22px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 1.9;
     text-transform: capitalize;
     /* line-height: 1.9; */
 }
