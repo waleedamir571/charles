@@ -7,14 +7,15 @@
                         <p class="head">Knotty Logistics</p>
                         <p class="ftext">We work with a passion of taking challenges and creating new ones in advertising sector.</p>
                     </div>
-                    <div class="col-md-4">
-                        <h5 class="services">Links</h5>
+                    <div class="col-md-4 mt-5">
+                        <!-- <h5 class="services">Links</h5> -->
                         <ul class="list-unstyled">
                             <li><a href="https://www.knottylogistics.com/" class="text-white">Home</a></li>
                             <li><a href="https://www.knottylogistics.com/about" class="text-white">About</a></li>
                             <!-- <li><a href="#" class="text-white">Services</a></li> -->
                             <li><a href="#" class="text-white">Blog</a></li>
                             <li><a href="https://www.knottylogistics.com/contact" class="text-white">Contact Us</a></li>
+                            <li><a href="https://www.knottylogistics.com/contact" class="text-white">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <!-- <div class="col-md-2">
@@ -29,15 +30,15 @@
                     </div> -->
                     <div class="col-md-4">
                         <h5 class="services">Contact Us</h5>
-                        <p class="flinks"><i class="fas fa-map-marker-alt"></i> 60 Road Brooklyn Street, 600 New York, USA</p>
-                        <p class="flinks"><i class="fas fa-phone"></i> (+1) 523-567-987</p>
-                        <p class="flinks"><i class="fas fa-envelope"></i> AddyourEmail</p>
+                        <p class="flinks"><i class="fas fa-map-marker-alt"></i> Idaho,83855</p>
+                        <p class="flinks"><i class="fas fa-phone"></i> (+1) 509-438-3326</p>
+                        <p class="flinks"><i class="fas fa-envelope"></i> office@knottylogistics.com</p>
                         <div class="d-flex gap-3">
                             <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/people/Knotty-Logistics/61581451724424/?rdid=nX7cwi63gFoOxzyM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17BYA96orL%2F" class="text-white"><i class="fab fa-facebook"></i></a>
                           
                             <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-                            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/knotty.logistics/?igsh=ZmprejlzMXN3b2hz#" class="text-white"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -86,20 +87,37 @@
                 navigation: {
                     nextEl: '#nextSlide',
                     prevEl: '#prevSlide',
-                },
+                }
                 breakpoints: {
                     640: {
-                        slidesPerView: 1,
+                        slidesPerView: 4,
                     },
                     768: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                     },
                     1024: {
-                        slidesPerView: 2.5,
+                        slidesPerView: 4,
                     }
                 }
             });
         </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".custom-swiper", {
+    slidesPerView: 4, // show 4 at once
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,
+    breakpoints: {
+      1200: { slidesPerView: 4 },
+      992: { slidesPerView: 3 },
+      768: { slidesPerView: 2 },
+      576: { slidesPerView: 1 },
+    },
+  });
+</script>
 </body>
 
 

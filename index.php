@@ -17,10 +17,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div data-aos="fade-up">
-                        <h4>Revolutionizing Logistics & Freight Management</h4>
+                        <h4>Built for Bulk Haulers — From Pit to Pay in Real Time</h4>
                         <h1>Welcome to Knotty Logistics</h1>
-                        <p>Skip the calls. Skip the paper. Knotty Logistics brings Constructors, Brokers, and Truckers
-                            together in one simple app — track every load from pit to pay in seconds.</p>
+                        <p>No more phone tag. No more paper tickets. Knotty Logistics connects every driver, dispatcher,
+                            and broker in one app — from pit to pay, all in real time.</p>
                         <div><a href="#" class="hover1">LOGIN NOW</a></div>
                     </div>
                 </div>
@@ -55,9 +55,8 @@
                         <div class="card-circle">01</div>
                         <div class="card-body">
                             <h5 class="card-title packaging">Brokers & Contractors</h5>
-                            <p class="card-text1 ">Post a job in seconds, match the right truck fast — no more
-                                back-and-forth calls.</p>
-                            <p class="score">94% SCORE</p>
+                            <p class="card-text1  pt-22">Assign and confirm jobs instantly.</p>
+                            <!-- <p class="score">94% SCORE</p> -->
                         </div>
                     </div>
                 </div>
@@ -66,9 +65,8 @@
                         <div class="card-circle">02</div>
                         <div class="card-body">
                             <h5 class="card-title packaging"> Fleet Owners (3–50 Trucks)</h5>
-                            <p class="card-text1">See all your trucks in one simple dashboard. Assign loads, track
-                                progress, and stay updated in real time.</p>
-                            <p class="score">96% SCORE</p>
+                            <p class="card-text1">Track your trucks and the trucks you hire, all in one dashboard.</p>
+                            <!-- <p class="score">96% SCORE</p> -->
                         </div>
                     </div>
                 </div>
@@ -77,9 +75,9 @@
                         <div class="card-circle">03</div>
                         <div class="card-body">
                             <h5 class="card-title packaging">Drivers</h5>
-                            <p class="card-text1">Get jobs on your phone, hit the road, and get paid faster — no waiting
-                                around.</p>
-                            <p class="score">98% SCORE</p>
+                            <p class="card-text1">No more waiting around; see the job, haul the load, get paid faster.
+                            </p>
+                            <!-- <p class="score">98% SCORE</p> -->
                         </div>
                     </div>
                 </div>
@@ -98,7 +96,7 @@
                 <div class="col-lg-6">
 
 
-                    <img class="w-100" src="assets/images/index/seconds.png" alt="">
+                    <img class="w-100" src="assets/images/index/sec.jpg" alt="">
                     <!-- <figure>
                                     <img src="assets/images/index/about1.png" alt="aboutImg1">
                                 </figure>
@@ -121,10 +119,13 @@
                     <div data-aos="fade-up">
                         <img src="assets/images/index/truck.png" alt="">
                         <h4>About Us</h4>
-                        <h2 class="mt-0 about-heading">Simplifying Connection in One Digital Platform</h2>
-                        <p class="text">Knotty Logistics unites companies, contractors, fleet owners, and truckers in
-                            one simple platform. No more back-and-forth call; just smooth communication, live progress
-                            updates, and faster jobs from pit to pay.</p>
+                        <h2 class="mt-0 about-heading">Why Knotty?</h2>
+                        <p class="text">Knotty Logistics was built by people who’ve lived the hauling grind. We know the
+                            headaches — endless calls, lost tickets, delays, and confusion on every job. That’s why we
+                            created the first real-time platform designed specifically for bulk aggregate hauling.</p>
+                        <p class="text">With Knotty, brokers, contractors, and drivers all work in one place: live truck
+                            counts, real-time material tracking, instant ticket sign-offs, and jobs closed out the
+                            moment the last load is dumped.</p>
                         <br>
                         <!-- <p class="text">
                             Our system ensures that all collected data complies with <span class="dark-color">DOT
@@ -136,13 +137,13 @@
 
                         <ul>
                             <li class="text pb-10"><img class="pr-10" src="assets/images/index/arrow.png" alt="">
-                                Instant Load Visibility </li>
+                                Real-Time Connection </li>
                             <li class="text pb-10"><img class="pr-10" src="assets/images/index/arrow.png" alt="">
-                                Quick Digital Sign-Offs </li>
+                                End-to-End Simplicity </li>
                             <li class="text pb-10"><img class="pr-10" src="assets/images/index/arrow.png" alt="">
-                                Smart Compliance Tools </li>
+                                Created by Haulers, for Haulers </li>
                             <li class="text"><img class="pr-10" src="assets/images/index/arrow.png" alt="">
-                                One Platform for All</li>
+                                All-in-One Platform</li>
                         </ul>
                         <div class="ptb-15">
                             <a href="#" class="hover1">Read More</a>
@@ -163,11 +164,12 @@
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-12">
                     <img class="w-100 d-none1" src="assets/images/index/export.png" alt="">
                 </div>
-            </div>
+            </div> -->
+
             <div>
 
                 <!-- <h2 class="text-center">Trusted By <div class="d-inline-block "><span class="number"
@@ -195,10 +197,10 @@
             <div class="Content">
                 <img src="assets/images/index/truck.png" alt="">
                 <h4>KEY FEATURES</h4>
-                <h2 class="about-heading">Specialist Logistics Features</h2>
+                <h2 class="about-heading">What Knotty Does Best</h2>
 
             </div>
-            <div class="row gy-4 mt-3">
+            <!-- <div class="row gy-4 mt-3">
                 <div class="col-sm-6 col-lg-3">
                     <img class="w-100" src="assets/images/index/l1.png" alt="">
 
@@ -213,7 +215,65 @@
                     <img class="w-100" src="assets/images/index/l4.png" alt="">
                 </div>
 
+            </div> -->
+
+            <!-- Swiper -->
+            <!-- <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide col-sm-6 col-lg-3">
+                        <img class="w-100" src="assets/images/index/feature-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide"> <img class="w-100" src="assets/images/index/feature-1.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="w-100" src="assets/images/index/feature-1.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="w-100" src="assets/images/index/feature-1.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="w-100" src="assets/images/index/feature-1.png" alt=""></div>
+                </div>
+            </div> -->
+
+            <div class="swiper mySwiper custom-swiper myFeatures mt-4">
+                <div class="swiper-wrapper custom-swiper-wrapper">
+                    <div class="swiper-slide custom-swiper-slide">
+                        <img src="assets/images/index/G1.png" alt="Feature 1">
+                    </div>
+                    <div class="swiper-slide custom-swiper-slide">
+                        <img src="assets/images/index/G2.png" alt="Feature 2">
+                    </div>
+                    <div class="swiper-slide custom-swiper-slide">
+                        <img src="assets/images/index/G3.png" alt="Feature 3">
+                    </div>
+                    <div class="swiper-slide custom-swiper-slide">
+                        <img src="assets/images/index/G4.png" alt="Feature 4">
+                    </div>
+                    <div class="swiper-slide custom-swiper-slide">
+                        <img src="assets/images/index/G5.png" alt="Feature 5">
+                    </div>
+                </div>
+
+
             </div>
+
+
+            <!-- <div class="custom-swiper myFeatures mt-4">
+                <div class="custom-swiper-wrapper">
+                    <div class="custom-swiper-slide">
+                        <img src="assets/images/index/feature-1.png" alt="Feature 1">
+                    </div>
+                    <div class="custom-swiper-slide">
+                        <img src="assets/images/index/feature-2.png" alt="Feature 2">
+                    </div>
+                    <div class="custom-swiper-slide">
+                        <img src="assets/images/index/feature-3.png" alt="Feature 3">
+                    </div>
+                    <div class="custom-swiper-slide">
+                        <img src="assets/images/index/feature-4.png" alt="Feature 4">
+                    </div>
+                    <div class="custom-swiper-slide">
+                        <img src="assets/images/index/feature-5.png" alt="Feature 5">
+                    </div>
+                </div>
+
+
+            </div> -->
         </div>
     </section>
     <!-- End of 1.4. We-Do section -->
@@ -228,12 +288,10 @@
                 <div class="col-lg-6">
                     <div data-aos="fade-up">
                         <img src="assets/images/index/truck.png" alt="">
-                        <h4>How Knotty Works</h4>
-                        <h2 class="mt-0 about-heading">Hauling Reimagined for the Digital Age</h2>
-                        <p class="text">Knotty Logistics transforms hauling with a digital-first platform built to keep
-                            contractors, brokers, fleet owners, and truckers connected in real time. By simplifying
-                            operations, improving compliance, and sharing live data, we help businesses work faster,
-                            smarter, and stress-free.</p>
+                        <h4>What We Do</h4>
+                        <h2 class="mt-0 about-heading">We make hauling simple</h2>
+                        <p class="text">Instead of spending your day chasing phone calls, keeping track of paper
+                            tickets, or wondering where trucks are, Knotty puts everything in one easy-to-use app.</p>
                         <br>
 
 
@@ -242,30 +300,25 @@
                                 <img src="assets/images/index/1.png" alt="">
                             </div>
                             <div class="col-md-10">
-                                <p class="fully">A Fully Integrated Digital Approach</p>
-                                <p class="text">We replace endless phone calls and scattered paperwork with one
-                                    easy-to-use platform that combines jobs, tickets, and tracking in one place —
-                                    cutting delays and confusion.</p>
+                                <p class="fully">Here’s how it works:</p>
+                                <p class="text">You set up a job, and drivers can see it and accept it right away. As the work gets done, you can watch every truck and every load update in real time — no guessing, no waiting for callbacks.</p>
                             </div>
                             <div class="col-md-2">
                                 <img src="assets/images/index/2.png" alt="">
                             </div>
                             <div class="col-md-10">
-                                <p class="fully">Real-Time Collaboration & Data Sharing</p>
-                                <p class="text">From project planning to execution, every step is managed
-                                    digitally—eliminating delays, reducing paperwork, and increasing transparency.
-                                    With a focus on compliance, efficiency, and automation, Knotty Logistics helps
-                                    businesses stay ahead in a fast-moving industry.</p>
+                                <p class="fully">Instant Job Close-Out & Invoicing</p>
+                                <p class="text">When the last load is dropped, the supervisor signs off with a quick scan, and the job is closed right there on the spot. Invoices are ready instantly, so everyone knows what was hauled and what’s owed. It’s faster, clearer, and a whole lot less stressful. With Knotty, the work flows the way it should — simple, connected, and always up to date.</p>
                             </div>
                         </div>
-                        <div><a href="#" class="hover1">Read More</a></div>
+                        <div><a href="#" class="hover1">Book a Demo</a></div>
 
                     </div>
                 </div>
                 <div class="col-lg-6">
 
 
-                    <img class="w-100" src="assets/images/index/mobile.png" alt="">
+                    <img class="w-100" src="assets/images/index/mob.png" alt="">
 
 
 
@@ -282,7 +335,7 @@
             <div class="Content">
                 <img src="assets/images/index/truck.png" alt="">
                 <h4>KEY FEATURES</h4>
-                <h2 class="about-heading">Specialist Logistics Features</h2>
+                <h2 class="about-heading">Why Haulers Trust Knotty</h2>
 
             </div>
             <div class="row gy-4 mt-3">
@@ -290,8 +343,8 @@
                     <div class=" h-100" data-aos="flip-left">
                         <img class="w-75" src="assets/images/index/c1.png" alt="">
                         <div class="pb-30">
-                            <p class="efficiency">Efficiency & Automation</p>
-                            <p class="text">Save time with our automated workflows.</p>
+                            <p class="efficiency">Built for Bulk</p>
+                            <p class="text">Designed for dirt, rock, sand, and aggregate hauls.</p>
                         </div>
 
                     </div>
@@ -300,8 +353,8 @@
                     <div class=" h-100" data-aos="flip-left">
                         <img class="w-75" src="assets/images/index/c2.png" alt="">
                         <div class="pb-30">
-                            <p class="efficiency">User-Friendly Interface</p>
-                            <p class="text"> Access everything you need in a few clicks.</p>
+                            <p class="efficiency">Total Visibility</p>
+                            <p class="text"> Know who’s on the job, what’s been hauled, and what’s left.</p>
                         </div>
 
                     </div>
@@ -310,8 +363,8 @@
                     <div class=" h-100" data-aos="flip-left">
                         <img class="w-75" src="assets/images/index/c3.png" alt="">
                         <div class="pb-30">
-                            <p class="efficiency">Secure & Compliant</p>
-                            <p class="text">Ensure safety with verified contracts and compliance tracking.</p>
+                            <p class="efficiency">Faster Work, Faster Pay</p>
+                            <p class="text">Save hours with real-time updates and digital tickets.</p>
                         </div>
 
                     </div>
@@ -320,8 +373,8 @@
                     <div class=" h-100" data-aos="flip-left">
                         <img class="w-75" src="assets/images/index/c4.png" alt="">
                         <div class="pb-30">
-                            <p class="efficiency">Transparent Pricing</p>
-                            <p class="text">No hidden fees, just straightforward pricing models.</p>
+                            <p class="efficiency">Network Power</p>
+                            <p class="text">One company joins, their entire crew and partners follow.</p>
                         </div>
 
                     </div>
@@ -342,11 +395,10 @@
             <div class="row baseline">
                 <div class="col-md-7">
                     <div data-aos="fade-down">
-                        <p class="get">Get Started Today!</p>
-                        <p>Join thousands of industry professionals who are simplifying logistics with Knotty
-                            Logistics. Sign up now and transform the way you manage freight operations!</p>
+                        <p class="get">Ready to Haul Smarter?</p>
+                        <p>Stop chasing calls and paper tickets. Knotty keeps your jobs moving — simple, fast, and digital in real time.</p>
                         <br>
-                        <div><a href="#" class="hover1">SIGN UP NOW</a></div>
+                        <div><a href="#" class="hover1">Join NOW</a></div>
                     </div>
                 </div>
                 <div class="col-md-3 offset-md-2">
@@ -391,6 +443,44 @@
     <!-- End of 1.9. Case-studies section -->
 
     <!-- 1.10. Testimonials section -->
+    <!-- <section class="Testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/index/truck.png" alt="">
+                    <h4 class="heading">BLOGS</h4>
+                    <p class="about-heading">Ensuring Long-Term Success</p>
+                    <p class="text">Explore how innovative logistics solutions can streamline operations...</p>
+                    <div class="nav-buttons Case-studies">
+                        <button id="prevSlide">&#8592;</button>
+                        <button id="nextSlide">&#8594;</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+           
+
+        </div>
+    </section> -->
+
     <section class="Testimonials">
         <div class="container">
             <div class="row">
@@ -424,10 +514,10 @@
 
 
 
-            <!-- Custom Navigation Buttons -->
+        <!-- Custom Navigation Buttons -->
 
-        </div>
-    </section>
+    </div>
+</section>
     <!-- End of 1.10. Testimonials section -->
 
     <!-- 1.11. Team section -->

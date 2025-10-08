@@ -64,7 +64,7 @@
 
  */
 
-  .contact-info {
+.contact-info {
     background-color: #e9f1fb;
     border-radius: 10px;
     padding: 40px;
@@ -73,7 +73,7 @@
     height: 8rem;
 }
 
-.pt-60{
+.pt-60 {
     padding-bottom: 60px;
 }
 
@@ -83,55 +83,56 @@
 
 
 
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-box {
+    width: 40px;
+    height: 50px;
+    /* background-color: #0046b5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.icon-box i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.info-text h5 {
+    margin: 0;
+    font-weight: 700;
+    color: #000;
+}
+
+.info-text p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
     .info-item {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .icon-box {
-      width: 40px;
-      height: 50px;
-      /* background-color: #0046b5; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 5px;
-    }
-
-    .icon-box i {
-      color: #fff;
-      font-size: 22px;
-    }
-
-    .info-text h5 {
-      margin: 0;
-      font-weight: 700;
-      color: #000;
-    }
-
-    .info-text p {
-      margin: 0;
-      color: #333;
-      font-size: 14px;
-    }
-
-    @media (max-width: 767px) {
-      .info-item {
         margin-bottom: 20px;
-      }
     }
+}
 
- .pt-50{
+.pt-50 {
     padding-top: 50px;
- }
-.message{
+}
+
+.message {
     color: #004AAD;
     font-size: 60px;
     font-weight: 600;
 }
 
-.lorem{
+.lorem {
     font-size: 22px;
     font-weight: 400;
 }
@@ -140,49 +141,49 @@
     background-color: #4F84CA;
 }
 
-  .request-section {
-      max-width: 700px;
-      margin: 60px auto;
-    }
+.request-section {
+    max-width: 700px;
+    margin: 60px auto;
+}
 
-    .request-section h2 {
-      color: #0056d2;
-      font-weight: 700;
-    }
+.request-section h2 {
+    color: #0056d2;
+    font-weight: 700;
+}
 
-    .request-section p {
-      color: #555;
-      margin-bottom: 30px;
-    }
+.request-section p {
+    color: #555;
+    margin-bottom: 30px;
+}
 
-    .form-control {
-      border: 1px solid #e0e0e0;
-      border-radius: 5px;
-      padding: 10px 12px;
-      font-size: 14px;
-    }
+.form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
 
-    textarea.form-control {
-      height: 120px;
-      resize: none;
-    }
+textarea.form-control {
+    height: 120px;
+    resize: none;
+}
 
-    .btn-primary {
-      background-color: #0056d2;
-      border: none;
-      width: 100%;
-      border-radius: 8px;
-      padding: 10px;
-      font-weight: 600;
-    }
+.btn-primary {
+    background-color: #0056d2;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+}
 
-    .btn-primary:hover {
-      background-color: #0041a3;
-    }
+.btn-primary:hover {
+    background-color: #0041a3;
+}
 
 
-    .Hero4 {
-   background: url(../images/About/blog.png) !important;
+.Hero4 {
+    background: url(../images/About/blog.png) !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     background-position: top center;
@@ -197,7 +198,7 @@
 
 
 .Hero3 {
-   background: url(../images/About/contact.png) !important;
+    background: url(../images/About/contact.png) !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     background-position: top center;
@@ -212,7 +213,7 @@
 
 
 .Hero1 {
-   background: url(../images/About/about.png) !important;
+    background: url(../images/About/about.png) !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     background-position: top center;
@@ -717,13 +718,14 @@ aside li {
 }
 
 .Hero .bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* ensures video covers area like background-image */
-  z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures video covers area like background-image */
+    z-index: -1;
 }
 
 
@@ -2522,26 +2524,25 @@ aside li {
         width: 100%;
     }
 
-    .w-51{
+    .w-51 {
         width: 50%;
     }
 
     .flinks {
-    color: #FFF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.1;
-    text-transform: capitalize;
-    /* line-height: 1.9; */
-}
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.1;
+        text-transform: capitalize;
+        /* line-height: 1.9; */
+    }
 
     footer p {
-    color: #FFF;
-    transition: all 0.3s 
-ease;
-    padding-top: 5px;
-}
+        color: #FFF;
+        transition: all 0.3s ease;
+        padding-top: 5px;
+    }
 
 
 
@@ -2564,7 +2565,7 @@ ease;
     }
 
     .Guide {
-        background: url(../images/index/bgtruck.png);
+        background: url(../images/index/haul-smarter.jpg);
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -2822,7 +2823,7 @@ ease;
 
 /* 1.12. Guide section */
 .Guide {
-    background: url(../images/index/bgtruck.png);
+    background: url(../images/index/haul-smarter.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -4897,6 +4898,60 @@ footer .copyright p {
     .Page-not-found .footer {
         margin-top: 50px;
     }
+}
+.mt-5{
+    margin-top: 5px;
+}
+.pt-22{
+    padding-top: 22px;
+}
+/* 
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    } */
+
+
+.custom-swiper {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.custom-swiper-slide {
+    text-align: center;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    width: auto !important;
+}
+
+.custom-swiper-slide:hover {
+    transform: translateY(-5px);
+}
+
+.custom-swiper-slide img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 /* End of 13.1. Page-not-found section */
