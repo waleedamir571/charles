@@ -178,8 +178,7 @@
                     <!-- <img src="assets/images/index/truck.png" alt=""> -->
 
                     <h2 class="mt-0 about-heading">Create and Track Jobs</h2>
-                    <p class="text">Start a job in seconds and share it instantly. Drivers can accept your orders right
-                        away, and you can watch every load move.</p>
+                    <p class="text">Post, assign, and track every job in real time — all from one app.</p>
 
                     <!-- <ul>
                         <li class="text">Start a job in seconds and share it instantly.</li>
@@ -189,24 +188,22 @@
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Quick Job Setup</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Create a job in seconds, share it instantly, and let drivers accept it right away.
                             </p>
                         </div>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Drivers can accept your orders right away</p>
+                            <p class="start">Stay in Control</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Watch every load move live with GPS tracking with instant updates.
                             </p>
                         </div>
                     </div>
-                 
+
                 </div>
             </div>
 
@@ -230,16 +227,17 @@
                     <h2 class="mt-0 about-heading">Build and Manage Your Network
                     </h2>
                     <div class="ptb-15">
-                        <p class="text">Bring your trusted brokers, drivers, and contractors together on one platform.
+                        <p class="text">Connect with brokers, drivers, and contractors. Keep your trusted partners close
+                            and discover new ones when needed.
                         </p>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Collaborate and Expand Easily</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Invite your contacts or find new partners. Post public jobs for quick fills, keeping
+                                your loads moving with no delays.
                             </p>
 
                         </div>
@@ -276,23 +274,22 @@
                     <h2 class="mt-0 about-heading">Keep Your Trucks Ready
                     </h2>
                     <div class="ptb-15">
-                        <p class="text">Check the condition of every vehicle with easy digital inspection sheets.
-                            You’ll always know which trucks are good to go and which ones need attention before hitting
-                            the road.
+                        <p class="text">Check every vehicle’s condition and keep your fleet running safely with digital
+                            inspections.
                         </p>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Simple, Smart Inspections</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Record checks, flag issues, and track repairs — always know which trucks are ready to
+                                go.
                             </p>
 
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
 
@@ -313,18 +310,15 @@
 
                     <h2 class="mt-0 about-heading">Use Digital Tickets
                         <div class="ptb-15">
-                            <p class="text">No more lost or messy paper tickets. Each haul is tracked automatically and
-                                updated in real time. DOT-compliant and always easy to find when you need it.
+                            <p class="text">Keep your job records digital, secure, and easy to access.
                             </p>
                         </div>
                         <div class="logistics-section">
                             <img src="assets/images/About/ico.png" alt="Truck Icon">
                             <div class="logistics-text">
-                                <p class="start">Start a job in seconds and share it instantly.</p>
+                                <p class="start">Track Every Haul</p>
                                 <p>
-                                    Knotty Logistics transforms the logistics industry by offering a fully digital
-                                    solution
-                                    that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                    Each ticket updates live with accurate load, route, and time details for every trip.
                                 </p>
 
                             </div>
@@ -332,11 +326,9 @@
                         <div class="logistics-section">
                             <img src="assets/images/About/ico.png" alt="Truck Icon">
                             <div class="logistics-text">
-                                <p class="start">Drivers can accept your orders right away</p>
+                                <p class="start">Approve Instantly</p>
                                 <p>
-                                    Knotty Logistics transforms the logistics industry by offering a fully digital
-                                    solution that bridges the gap between contractors, brokers, trucking companies, and
-                                    drivers.
+                                    Sign off jobs with quick e-signatures and store them safely inside Knotty Logistics.
                                 </p>
 
                             </div>
@@ -379,23 +371,22 @@
 
                     </h2>
                     <div class="ptb-15">
-                        <p class="text">See what’s billed, what’s paid, and what’s pending — all in one dashboard. 
-                            You’ll always know your profit without digging through spreadsheets.
+                        <p class="text">Know exactly where your finances stand — what’s billed, what’s paid, and what’s
+                            pending so you can plan your next move.
                         </p>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Get Complete Payment Visibility</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Track every transaction in real time and access instant summaries.
                             </p>
 
                         </div>
                     </div>
 
-                  
+
 
                 </div>
             </div>
@@ -417,23 +408,23 @@
                     <h2 class="mt-0 about-heading">Stay Connected in Real Time
                     </h2>
                     <div class="ptb-15">
-                        <p class="text">No more lost or messy paper tickets. Each haul is tracked automatically and
-                            updated in real time.
+                        <p class="text">Jobs, tickets, and invoices sync together so your team always knows what’s
+                            happening.
                         </p>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Instant Communication, One Platform</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Chat with drivers, brokers, and contractors in one place. Share quick updates on routes,
+                                delays, or job progress — no calls, no confusion.
                             </p>
 
                         </div>
                     </div>
 
-                   
+
 
                 </div>
             </div>
@@ -464,17 +455,15 @@
 
                     <h2 class="mt-0 about-heading">Plan Your Day, Stay Ahead</h2>
                     <div class="ptb-15">
-                        <p class="text">Your schedule updates automatically as jobs move. Change dispatches or
-                            assignments anytime — no downtime, no confusion.
+                        <p class="text">Knotty updates your schedule automatically so stay organized and in control.
                         </p>
                     </div>
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Start a job in seconds and share it instantly.</p>
+                            <p class="start">Smarter Scheduling</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                View all your active, upcoming, and completed jobs. Reassign or edit dispatches anytime.
                             </p>
 
                         </div>
@@ -482,10 +471,10 @@
                     <div class="logistics-section">
                         <img src="assets/images/About/ico.png" alt="Truck Icon">
                         <div class="logistics-text">
-                            <p class="start">Drivers can accept your orders right away</p>
+                            <p class="start">Real-Time Alerts</p>
                             <p>
-                                Knotty Logistics transforms the logistics industry by offering a fully digital solution
-                                that bridges the gap between contractors, brokers, trucking companies, and drivers.
+                                Get instant notifications for new or updated jobs so you never miss a change and stay on
+                                track.
                             </p>
 
                         </div>
@@ -506,7 +495,7 @@
 
 <section class="Guide">
     <div class="container">
-        <div class="row baseline">
+        <div class="row ">
             <div class="col-md-7">
                 <div data-aos="fade-down">
                     <p class="get">Hauling, Simplified</p>
@@ -520,13 +509,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 offset-md-2">
-                <div class="Guide-video" data-bs-toggle="modal" data-bs-target="#staticBackdropVideo">
-                    <a class="video-play-button">
-                        <span class="fa-solid fa-play"></span>
-                    </a>
+            <div class="col-md-5">
+                    <div class="ptb-15">
+                    <div class="videoBox " data-video-id="dJtaOXD-Wdg">
+                        <img src="assets/images/About/knotty.png" alt="Video Thumbnail" class="video-thumb">
+                        <a class="video-play-btn" aria-label="Play video">
+                            <span class="fa-solid fa-play"></span>
+                        </a>
+                        <div class="video-frame">
+                            <iframe title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    </div>
+
                 </div>
-            </div>
 
         </div>
     </div>
@@ -537,10 +536,11 @@
                 <div class="modal-body">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                             class="fa-solid fa-xmark"></i></button>
-                    <iframe src="https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13"
+                    <iframe src="https://www.youtube.com/embed/dJtaOXD-Wdg?si=HeSKEMzJFS_wCXBR"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>

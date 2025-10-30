@@ -1,34 +1,16 @@
-// Function to create and insert the preloader into the DOM
-function createPreloader() {
-    const preloader = document.createElement('div');
-    preloader.id = 'preloader';
-    const wrapper = document.createElement('div');
-    wrapper.className = "position-relative";
-    const spinner = document.createElement('div');
-    spinner.className = "spinner";
-    const image = document.createElement('img');
-    image.src = "assets/images/index/logo.png";
-    wrapper.appendChild(spinner);
-    wrapper.appendChild(image);
-    preloader.appendChild(wrapper);
-    document.body.appendChild(preloader);
-}
-function removePreloader() {
+ // ==== CSS background-image preloader (2s) ====
+ 
+  // Loader already exists in HTML, so just fade it out after load
+  window.addEventListener('load', () => {
     const preloader = document.getElementById('preloader');
-    const siterapper = document.querySelector('.site-wrapper');
-    if (preloader) {
-        preloader.remove();
-        siterapper.style.visibility = "visible";
-        siterapper.style.overflow = "visible";
-        siterapper.style.height = "unset";
-    }
-}
-createPreloader();
-window.addEventListener('load', function() {
+    if (!preloader) return;
+
+    // Wait 2s, then fade away
     setTimeout(() => {
-        removePreloader();
-    }, 500);
-});
+      preloader.classList.add('fade-out');
+      setTimeout(() => preloader.remove(), 500);
+    }, 1000);
+  });
 
 
 

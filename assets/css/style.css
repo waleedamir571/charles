@@ -80,6 +80,99 @@
 .info-text {
     padding-left: 15px;
 }
+/* === Video Box === */
+.videoBox {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 28px;
+  background: #000;
+}
+
+/* === Thumbnail + Video same size === */
+.videoBox .video-thumb,
+.videoBox .video-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 28px;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+/* === Play Button === */
+.videoBox .video-play-btn {
+position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+    box-sizing: content-box;
+    display: block;
+    width: 16px;
+    height: 27px;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+/* === Blink animation around play icon === */
+.videoBox .video-play-btn::before {
+ content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #004AADE5;
+    border-radius: 50%;
+    animation: pulse-border 1500ms 
+ease-out infinite;
+}
+
+@keyframes blinkPulse {
+ 0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+}
+100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+}
+}
+
+/* === Hide button + thumbnail when playing === */
+.videoBox.is-playing .video-thumb,
+.videoBox.is-playing .video-play-btn {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* === Video Frame Layer === */
+.videoBox .video-frame {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+     .videoBox .video-play-btn {
+        width: 25px;
+        height: 30px;
+        font-size: 24px;
+    }
+}
 
 
 
@@ -110,11 +203,50 @@
     color: #000;
 }
 
+.ptb-15{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.start{
+        color: #1141BE !important;
+    margin-bottom: 25px !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+
 .info-text p {
     margin: 0;
     color: #333;
     font-size: 14px;
 }
+
+ .logistics-section {
+      max-width: 800px;
+      margin: 10px auto;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .logistics-section img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .logistics-text h5 {
+      font-weight: 700;
+      color: #0056b3;
+      margin-bottom: 8px;
+    }
+
+    .logistics-text p {
+      color: #555;
+      font-size: 16px;
+      margin: 0;
+      line-height: 1.6;
+    }
+
 
 @media (max-width: 767px) {
     .info-item {
@@ -132,13 +264,17 @@
     font-weight: 600;
 }
 
+.swiper-button-lock {
+    display: block !important;
+}
+
 .lorem {
     font-size: 22px;
     font-weight: 400;
 }
 
 .bgblue {
-    background-color: #4F84CA;
+    background-color: #004AAD;
 }
 
 .request-section {
@@ -196,6 +332,13 @@ textarea.form-control {
     margin: 40px 0px;
 }
 
+.button-row {
+    display: flex;
+    /* justify-content: center;
+  align-items: center; */
+    gap: 0px;
+    /* yahaan se gap control hota hai */
+}
 
 .Hero3 {
     background: url(../images/About/contact.png) !important;
@@ -211,9 +354,55 @@ textarea.form-control {
     margin: 40px 0px;
 }
 
+.Hero5 {
+    background: url(../images/About/apph.jpg);
+    /* background: url(../images/About/apph.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px 0px 100px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Hero5 .container a {
+    margin: 40px 0px;
+}
+
+.Hero5 .row {
+    margin: 70px 0px 0px;
+}
+
+.Guide1 {
+    background: url(../images/About/truck.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    padding: 190px 0px;
+    position: relative;
+    /* height: 72vh; */
+}
+
+.Hero5::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+    background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
+    z-index: 0;
+}
+
+.w-20 {
+    width: 75%;
+}
+
 
 .Hero1 {
-    background: url(../images/About/about.png) !important;
+    background: url(../images/About/about.jpg) !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     background-position: top center;
@@ -227,7 +416,7 @@ textarea.form-control {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 67%;
+    height: 100%;
     position: absolute;
     /* background: linear-gradient(90deg, #000000 -14.3%, rgba(0, 0, 0, 0.74) 41.8%, rgba(0, 0, 0, 0.21) 100.18%); */
     background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
@@ -401,7 +590,7 @@ textarea.form-control {
 }
 
 .about-heading {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
     color: #000 !important;
     line-height: 1.3;
@@ -411,6 +600,7 @@ textarea.form-control {
     text-align: center;
     border: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .card-circle {
@@ -667,36 +857,17 @@ aside li {
     }
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        padding: 8px 0px;
-    }
+.Hero h4 {
+    color: #41AEFF;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 500;
+}
 
-    .nav-logo img {
-        width: 140px;
-    }
 
-    aside .fa-xmark {
-        font-size: 16px;
-    }
 
-    .navbar .container-fluid button {
-        padding: 6px 10px;
-        font-size: 20px;
-    }
-
-    #sideNav a {
-        font-size: 16px;
-    }
-
-    .navbar .hover1 {
-        padding: 6px 16px;
-    }
-
-    .navbar .container-fluid {
-        align-items: center;
-        gap: 12px;
-    }
+.pt-30{
+    padding-top: 30px;
 }
 
 @media (max-width: 360px) {
@@ -708,7 +879,7 @@ aside li {
 /* End of 1.1. Header section */
 /* 1.2. Hero section */
 .Hero {
-    background: url(../images/index/bg.png);
+    background: url(../images/hero-truck.jpg);
     background-size: 100% 85%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -734,7 +905,7 @@ aside li {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 67%;
+    height: 85%;
     position: absolute;
     /* background: linear-gradient(90deg, #000000 -14.3%, rgba(0, 0, 0, 0.74) 41.8%, rgba(0, 0, 0, 0.21) 100.18%); */
     background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
@@ -750,7 +921,7 @@ aside li {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 67%;
+    height: 85%;
     position: absolute;
     /* background: linear-gradient(90deg, #000000 -14.3%, rgba(0, 0, 0, 0.74) 41.8%, rgba(0, 0, 0, 0.21) 100.18%); */
     background: linear-gradient(90deg, #173036 0%, rgba(0, 74, 173, 0.00) 100%);
@@ -761,12 +932,7 @@ aside li {
     margin: 40px 0px;
 }
 
-.Hero h4 {
-    color: #41AEFF;
-    margin-bottom: 16px;
-    font-size: 26px;
-    font-weight: 500;
-}
+
 
 .Hero h1,
 .Hero p {
@@ -983,6 +1149,31 @@ aside li {
         padding-bottom: 50px;
     }
 
+    ol, ul {
+    list-style: none;
+    position: relative;
+    /* left: 1rem; */
+}
+
+    .text {
+    color: #706B6B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+
+
+    .Hero1 {
+    background: url(../images/About/about.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px 0px 100px !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
     .Hero::before {
         height: 33%;
     }
@@ -1029,7 +1220,7 @@ aside li {
 }
 
 .About-us .container {
-    background: url("../images/bg/arrow-right.png");
+    /* background: url("../images/bg/arrow-right.png"); */
     background-repeat: no-repeat;
     background-position: right 90%;
     background-size: cover;
@@ -1223,6 +1414,10 @@ aside li {
         margin: 70px 0px 50px;
     }
 
+    .logistics-text p {
+    text-align: left !important;
+}
+
     .About-us .row h2,
     .About-us .row p {
         width: 80%;
@@ -1339,9 +1534,11 @@ aside li {
     position: relative;
     /* top: 80px; */
     padding-top: 20px;
+    padding-bottom: 40px;
     text-align: center;
     z-index: 1;
 }
+
 
 .We-Do h4 {
     color: #004AAD;
@@ -1460,8 +1657,9 @@ aside li {
 }
 
 @media (max-width: 480px) {
-    .We-Do {
-        top: 50px;
+       .We-Do {
+        top: 20px;
+        padding-bottom: 60px;
     }
 
     .Services_We-Do {
@@ -2230,8 +2428,8 @@ aside li {
 }
 
 @media (max-width: 480px) {
-    .Case-studies {
-        padding-top: 50px;
+      .Case-studies {
+        padding-top: 0px;
     }
 
     .Case-studies .d-flex .d-flex:nth-of-type(1) div {
@@ -2470,7 +2668,7 @@ aside li {
 
 @media (max-width: 480px) {
     .Testimonials {
-        padding: 50px 0px;
+        padding: 25px 0px;
     }
 
     .Testimonials div .slideshow-container,
@@ -2522,6 +2720,61 @@ aside li {
 @media (min-width:320px) and (max-width: 480px) {
     .Testimonials figure {
         width: 100%;
+    }
+
+    .Hero5 .row {
+        margin: 40px 0px 0px;
+    }
+
+    .hero5 {
+        background-size: auto 50%;
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+       .About-us {
+        background-color: #ffff;
+        padding-bottom: 30px;
+        padding-top: 25px;
+    }
+
+
+    .ftext {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 33px;
+    }
+
+    .justify {
+        text-align: justify;
+    }
+
+    .message {
+        color: #004AAD;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .contact-info {
+        background-color: #e9f1fb;
+        border-radius: 10px;
+        padding: 40px;
+        /* margin: 50px auto; */
+        /* max-width: 1000px; */
+        height: 8rem;
+        display: none;
+    }
+
+    .Hero3 {
+        background: url(../images/About/contact.png) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding: 0px 0px 100px !important;
+        overflow-x: hidden;
+        position: relative;
     }
 
     .w-51 {
@@ -2584,8 +2837,8 @@ aside li {
         display: none;
     }
 
-    .get {
-        font-size: 50px;
+       .get {
+        font-size: 29px;
         font-weight: 700;
         line-height: 1.3;
         color: white;
@@ -2595,11 +2848,11 @@ aside li {
         padding-bottom: 20px;
     }
 
-    .video-play-button {
+        .video-play-button {
         position: absolute;
         z-index: 10;
-        bottom: -10rem !important;
-        left: 134% !important;
+        top: 5rem !important;
+        left: 135% !important;
         transform: translateX(-50%) translateY(-50%) scale(1.3);
         box-sizing: content-box;
         display: block;
@@ -2648,12 +2901,13 @@ aside li {
         font-size: 25px;
     }
 
-    .about-heading {
-        font-size: 27px;
+       .about-heading {
+        font-size: 20px !important;
         font-weight: 600;
         color: #000 !important;
         line-height: 1.3;
     }
+}
 
     .Testimonials figure img {
         width: 40px;
@@ -2796,8 +3050,51 @@ aside li {
 }
 
 @media (max-width: 480px) {
+
+    .hover1 {
+    display: inline-block;
+    color: #FFF;
+    background-color: #004AAD;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+}
     .Team {
         padding-bottom: 50px;
+    }
+
+    .start {
+    font-size: 16px !important;
+    text-align: left !important;
+}
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .none{
+        display: none;
+    }
+
+     .Hero5 {
+        background: url(../images/About/apph.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* padding: 160px 0px 100px; */
+        overflow-x: hidden;
+        position: relative;
+    }
+      .Hero5 .row {
+        margin: 40px 0px 0px;
+    }
+
+    .hero5 {
+        background-size: auto 50%;
+        padding: 0px 0px;
+        text-align: center;
     }
 
     .Team p {
@@ -2824,13 +3121,13 @@ aside li {
 /* 1.12. Guide section */
 .Guide {
     background: url(../images/index/haul-smarter.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 290px 0px;
+    padding: 190px 0px;
     position: relative;
-    height: 90vh;
+    /* height: 72vh; */
 }
 
 .Guide::before {
@@ -4899,12 +5196,15 @@ footer .copyright p {
         margin-top: 50px;
     }
 }
-.mt-5{
+
+.mt-5 {
     margin-top: 5px;
 }
-.pt-22{
+
+.pt-22 {
     padding-top: 22px;
 }
+
 /* 
 .swiper {
       width: 100%;
@@ -4952,6 +5252,73 @@ footer .copyright p {
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* @media (max-width: 575px) {
+  .custom-swiper .swiper-slide {
+    width: 50% !important; 
+  }
+} */
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 8px 0px;
+    }
+    .custom-swiper-slide img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.w-75 {
+    width: 50% !important;
+}
+
+        .Hero .row {
+        margin: 20px 0px 0px;
+    }
+
+    .packaging {
+    font-size: 23px;
+    font-weight: 600;
+    color: #004AAD;
+    line-height: 1.4;
+}
+
+    .Hero h4 {
+    color: white;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+    .nav-logo img {
+        width: 140px;
+    }
+
+    aside .fa-xmark {
+        font-size: 16px;
+    }
+
+    .navbar .container-fluid button {
+        padding: 6px 10px;
+        font-size: 20px;
+    }
+
+    #sideNav a {
+        font-size: 16px;
+    }
+
+    .navbar .hover1 {
+        padding: 6px 16px;
+    }
+
+    .navbar .container-fluid {
+        align-items: center;
+        gap: 12px;
+    }
 }
 
 /* End of 13.1. Page-not-found section */

@@ -92,7 +92,7 @@
             <div class="col-lg-6">
 
 
-                <img class="w-100" src="assets/images/index/seconds.png" alt="">
+                <img class="w-100" src="assets/images/index/sec.jpg" alt="">
                 <!-- <figure>
                                     <img src="assets/images/index/about1.png" alt="aboutImg1">
                                 </figure>
@@ -157,11 +157,11 @@
                 </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12">
                 <img class="w-100 d-none1" src="assets/images/index/export.png" alt="">
             </div>
-        </div>
+        </div> -->
         <div>
 
             <!-- <h2 class="text-center">Trusted By <div class="d-inline-block "><span class="number"
@@ -248,7 +248,7 @@
         <div class="row align-items-center">
 
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 pt-22">
                 <div data-aos="fade-up">
                     <img src="assets/images/index/truck.png" alt="">
                     <h4>WHAT WE DO</h4>
@@ -288,7 +288,7 @@
             <div class="col-lg-6">
 
 
-                <img class="w-100" src="assets/images/index/mobile.png" alt="">
+                <img class="w-100" src="assets/images/index/mob.png" alt="">
 
 
 
@@ -302,7 +302,7 @@
 
 
 
-<br><br><br>
+
 
 <!-- 1.5. Logistics section -->
 
@@ -346,7 +346,7 @@
                             <img src="assets/images/index/s2.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="assets/images/index/s1.png" alt="">
+                            <img src="assets/images/index/s3.png" alt="">
                         </div>
                     </div>
                 </div>

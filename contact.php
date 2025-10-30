@@ -94,13 +94,13 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class=" ">
+                            <div class="justify">
                                 <label class="form-label">First Name</label>
                                 <input type="text" class="form-control" placeholder="First Name">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="">
+                            <div class="justify">
                                 <label class="form-label">Last Name</label>
                                 <input type="text" class="form-control" placeholder="Last Name">
                             </div>
@@ -111,13 +111,13 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class=" ">
+                            <div class="justify ">
                                 <label class="form-label">Email</label>
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="">
+                            <div class="justify">
                                 <label class="form-label">Phone Number</label>
                                 <input type="number" class="form-control" placeholder="Phone Number">
                             </div>
@@ -126,7 +126,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class=" ">
+                            <div class="justify ">
                                 <label class="form-label">Your Message</label>
                                 <textarea class="form-control" placeholder="message here...."></textarea>
                             </div>
@@ -137,7 +137,7 @@
 
 
 
-                    <div class="col-12">
+                    <div class="col-12 pb-20">
                         <button type="submit" class="btn btn-primary mt-3">Register</button>
                     </div>
                 </div>
