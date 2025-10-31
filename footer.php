@@ -132,16 +132,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".videoBox").forEach(box => {
     const videoId = box.dataset.videoId;
-    const playBtn = box.querySelector(".video-play-btn");
-    const iframe = box.querySelector("iframe");
+    const iframe  = box.querySelector("iframe");
 
     const playVideo = () => {
-      iframe.src = `https://www.youtube.com/embed/${videoId}?${YT_PARAMS}${videoId}`;
-      box.classList.add("is-playing");
+      if (!box.classList.contains("is-playing") && videoId && iframe) {
+        iframe.src = `https://www.youtube.com/embed/${videoId}?${YT_PARAMS}${videoId}&rel=0&modestbranding=1`;
+        box.classList.add("is-playing");
+        box.style.cursor = "auto"; // controls ke liye normal cursor
+      }
     };
 
-    playBtn.addEventListener("click", e => {
-      e.preventDefault();
+    // poore box par click
+    box.addEventListener("click", (e) => {
+      // agar anchor pe click hua ho to navigation rok do
+      if (e.target.closest("a")) e.preventDefault();
       playVideo();
     });
   });

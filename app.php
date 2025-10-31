@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div data-aos="fade-up">
-                        <h4> No calls. No piles of paperwork. .</h4>
+                        <h4> No calls. No piles of paperwork.</h4>
                         <h1>An App That Makes Bulk Hauling Simple</h1>
                         <p> Moving dirt, sand, or rock should be easier. With Knotty Logistics, every part of bulk
                             hauling is combined into one simple, powerful app.
@@ -242,7 +242,8 @@
 
                         </div>
                     </div>
-                    <div><a href="#" class="hover1">Get Your App</a></div>
+                    <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.charleapp"
+                            class="hover1">Get Your App</a></div>
 
                 </div>
             </div>
@@ -333,7 +334,8 @@
 
                             </div>
                         </div>
-                        <div><a href="#" class="hover1">Get Your App</a></div>
+                        <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.charleapp"
+                                class="hover1">Get Your App</a></div>
 
 
 
@@ -480,7 +482,8 @@
                         </div>
                     </div>
 
-                    <div><a href="#" class="hover1">Get Your App</a></div>
+                    <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.charleapp"
+                            class="hover1">Get Your App</a></div>
 
                 </div>
             </div>
@@ -504,13 +507,14 @@
                     </p>
                     <br>
                     <div class="button-row">
-                        <div><img class="w-20" src="assets/images/About/b1.png" alt=""></div>
+                        <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.charleapp"><img
+                                    class="w-20" src="assets/images/About/b1.png" alt=""></a></div>
                         <div><img class="w-20" src="assets/images/About/b2.png" alt=""></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5">
-                    <div class="ptb-15">
+                <div class="ptb-15">
                     <div class="videoBox " data-video-id="dJtaOXD-Wdg">
                         <img src="assets/images/About/knotty.png" alt="Video Thumbnail" class="video-thumb">
                         <a class="video-play-btn" aria-label="Play video">
@@ -523,9 +527,9 @@
                             </iframe>
                         </div>
                     </div>
-                    </div>
-
                 </div>
+
+            </div>
 
         </div>
     </div>
@@ -606,10 +610,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-
-<Div class="row">
-    <Div class="container">
-        <Div class="col-md-3"></Div>
-    </Div>
-</Div>
