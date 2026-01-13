@@ -31,7 +31,6 @@
                 </div>
             </div>
 
-
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="card p-3">
@@ -65,8 +64,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
     <!-- End of 1.2. Hero section -->
@@ -94,8 +91,6 @@
                                 <h2 class="m-0 "><span class="number" data-final-value="50">0</span>+</h2>
                                 <p class="m-0">Years of Experience</p>
                             </div> -->
-
-
                 </div>
 
                 <div class="col-lg-6 pb-20">
@@ -231,8 +226,6 @@
                         <img src="assets/images/index/G5.png" alt="Feature 5">
                     </div>
                 </div>
-
-
             </div>
 
 
@@ -261,13 +254,9 @@
     </section>
     <!-- End of 1.4. We-Do section -->
 
-
-
     <section class="About-us">
         <div class="container">
             <div class="row align-items-center">
-
-
                 <div class="col-lg-6 pt-22">
                     <div data-aos="fade-up">
                         <img src="assets/images/index/truck.png" alt="">
@@ -276,7 +265,6 @@
                         <p class="text">Instead of spending your day chasing phone calls, keeping track of paper
                             tickets, or wondering where trucks are, Knotty puts everything in one easy-to-use app.</p>
                         <br>
-
 
                         <div class="row">
                             <div class="col-md-2">
@@ -301,21 +289,12 @@
                             </div>
                         </div>
                         <div><a target="_blank" href="https://www.knottylogistics.com/contact" class="hover1">Book a Demo</a></div>
-
                     </div>
                 </div>
                 <div class="col-lg-6">
-
-
                     <img class="w-100" src="assets/images/index/mob.png" alt="">
-
-
-
                 </div>
             </div>
-
-
-
         </div>
     </section>
 
@@ -335,7 +314,6 @@
                             <p class="efficiency">Built for Bulk</p>
                             <p class="text">Designed for dirt, rock, sand, and aggregate hauls.</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
@@ -365,17 +343,11 @@
                             <p class="efficiency">Network Power</p>
                             <p class="text">One company joins, their entire crew and partners follow.</p>
                         </div>
-
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </section>
-
-
 
     <!-- 1.5. Logistics section -->
 
@@ -408,15 +380,9 @@
                         </div>
                     </div>
                     </div>
-
                 </div>
-
-
-
-
             </div>
         </div>
-
 
         <div class="modal fade" id="staticBackdropVideo" data-bs-backdrop="static" data-bs-keyboard="false"
             tabindex="-1" aria-hidden="true">
@@ -481,12 +447,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-           
-
         </div>
     </section> -->
 
@@ -524,7 +484,6 @@
             </div>
 
             <!-- Custom Navigation Buttons -->
-
         </div>
     </section>
     <!-- End of 1.10. Testimonials section -->
