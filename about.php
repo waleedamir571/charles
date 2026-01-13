@@ -1,29 +1,30 @@
 <?php include 'header.php'; ?>
 
-  <div class="site-wrapper">
-        <!-- 1.1. Header section -->
+<div class="site-wrapper">
+    <!-- 1.1. Header section -->
 
-        <!-- End of 1.1. Header section -->
+    <!-- End of 1.1. Header section -->
 
-        <!-- 1.2. Hero section -->
-        <section class="Hero1">
-<?php include 'nav.php'; ?>
+    <!-- 1.2. Hero section -->
+    <section class="Hero1">
+        <?php include 'nav.php'; ?>
 
 
-<div class="container pt-50">
-    <div class="row">
-        <div class="col-md-6">
-            <div data-aos="fade-up">
-                <h4>About Us</h4>
-                <h1>Effortless Hauling Solutions</h1>
-                <p>We carry clearness to intricacy, separating basic subtleties from confounded data to make modern,
-                    direct arrangements.We carry clearness to intricacy, separating basic</p>
-                <!-- <div><a href="#" class="hover1">LOGIN NOW</a></div> -->
+        <div class="container pt-50">
+            <div class="row">
+                <div class="col-md-6">
+                    <div data-aos="fade-up">
+                        <h4>About Us</h4>
+                        <h1>Effortless Hauling Solutions</h1>
+                        <p>Knotty Logistics is built by people with experience in bulk hauling, for people who haul
+                            bulk. The platform digitizes the work behind every load so haulers can operate with clarity,
+                            track their work, and focus on moving material.</p>
+                        <!-- <div><a href="#" class="hover1">LOGIN NOW</a></div> -->
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- <div class="row">
+            <!-- <div class="row">
                     <div class="col-md-4" data-aos="flip-up">
                         <div class="d-flex flex-column h-100">
                             <img src="assets/images/icons/drop_shipping.png" alt="heroIcon1">
@@ -46,54 +47,54 @@
                    
                 </div> -->
 
-    <div class="row justify-content-center d-none">
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="card-circle">01</div>
-                <div class="card-body">
-                    <h5 class="card-title packaging">Packaging & Storage</h5>
-                    <p class="card-text1 ">We understand the importance of timely delivery.</p>
-                    <p class="score">94% SCORE</p>
+            <div class="row justify-content-center d-none">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-circle">01</div>
+                        <div class="card-body">
+                            <h5 class="card-title packaging">Packaging & Storage</h5>
+                            <p class="card-text1 ">We understand the importance of timely delivery.</p>
+                            <p class="score">94% SCORE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-circle">02</div>
+                        <div class="card-body">
+                            <h5 class="card-title packaging">Safety & Quality</h5>
+                            <p class="card-text1">We understand the importance of timely delivery.</p>
+                            <p class="score">96% SCORE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-circle">03</div>
+                        <div class="card-body">
+                            <h5 class="card-title packaging">Delivery On Time</h5>
+                            <p class="card-text1">We understand the importance of timely delivery.</p>
+                            <p class="score">98% SCORE</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="card-circle">02</div>
-                <div class="card-body">
-                    <h5 class="card-title packaging">Safety & Quality</h5>
-                    <p class="card-text1">We understand the importance of timely delivery.</p>
-                    <p class="score">96% SCORE</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card p-3">
-                <div class="card-circle">03</div>
-                <div class="card-body">
-                    <h5 class="card-title packaging">Delivery On Time</h5>
-                    <p class="card-text1">We understand the importance of timely delivery.</p>
-                    <p class="score">98% SCORE</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
+    <!-- End of 1.2. Hero section -->
 
 
-</div>
-</section>
-<!-- End of 1.2. Hero section -->
+    <!-- 1.3. About-us section -->
+    <section class="About-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
 
 
-<!-- 1.3. About-us section -->
-<section class="About-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-
-
-                <img class="w-100" src="assets/images/index/sec.jpg" alt="">
-                <!-- <figure>
+                    <img class="w-100" src="assets/images/index/sec.jpg" alt="">
+                    <!-- <figure>
                                     <img src="assets/images/index/about1.png" alt="aboutImg1">
                                 </figure>
                                 <figure>
@@ -109,9 +110,9 @@
                             </div> -->
 
 
-            </div>
+                </div>
 
-              <div class="col-lg-6 pb-20">
+                <div class="col-lg-6 pb-20">
                     <div data-aos="fade-up">
                         <img src="assets/images/index/truck.png" alt="">
                         <h4>About Us</h4>
@@ -139,7 +140,7 @@
                                 One Platform for All</li>
                         </ul>
                         <div class="ptb-15">
-                            <a href="#" class="hover1">Read More</a>
+                            <a target="_blank" href="https://www.knottylogistics.com/app" class="hover1">Read More</a>
                         </div>
                         <!-- <div class="d-flex align-items-stretch justify-content-between gap-3 mx-auto my-3 m-lg-0"
                                 data-aos="flip-up">
@@ -152,19 +153,19 @@
                                     <img src="assets/images/icons/delivery.png" alt="aboutIcon2">
                                     <h5 class="pt-2">Short Time Delivery</h5>
                                 </div>
-                            </div> -->
+                            </div>  -->
                     </div>
                 </div>
-        </div>
+            </div>
 
-        <!-- <div class="row">
+            <!-- <div class="row">
             <div class="col-md-12">
                 <img class="w-100 d-none1" src="assets/images/index/export.png" alt="">
             </div>
         </div> -->
-        <div>
-
-            <!-- <h2 class="text-center">Trusted By <div class="d-inline-block "><span class="number"
+            <div>
+                <!-- 
+             <h2 class="text-center">Trusted By <div class="d-inline-block "><span class="number"
                                 data-final-value="250">0</span>+</div> Companies</h2>
                     <div class="CompaniesSlider  ">
                         <div><a href="#"><img src="assets/images/icons/logoipsum1.png" alt="logo1"></a></div>
@@ -177,193 +178,193 @@
                         <div><a href="#"><img src="assets/images/icons/logoipsum3.png" alt="logo8"></a></div>
                         <div><a href="#"><img src="assets/images/icons/logoipsum4.png" alt="logo9"></a></div>
                         <div><a href="#"><img src="assets/images/icons/logoipsum5.png" alt="logo10"></a></div>
-                    </div> -->
-        </div>
-    </div>
-</section>
-<!-- End of 1.3. About-us section -->
-
-<!-- 1.4. We-Do section -->
-
-<!-- End of 1.4. We-Do section -->
-
-<section class="We-Do">
-    <div class="container">
-        <div class="Content">
-            <img src="assets/images/index/truck.png" alt="">
-            <h4>KEY FEATURES</h4>
-            <h2 class="about-heading">Specialist Logistics Features</h2>
-
-        </div>
-        <div class="row gy-4 mt-3">
-            <div class="col-sm-6 col-lg-3">
-                <div class=" h-100" data-aos="flip-left">
-                    <img class="w-75" src="assets/images/index/c1.png" alt="">
-                    <div class="pb-30">
-                        <p class="efficiency">Efficiency & Automation</p>
-                        <p class="text">Save time with our automated workflows.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class=" h-100" data-aos="flip-left">
-                    <img class="w-75" src="assets/images/index/c2.png" alt="">
-                    <div class="pb-30">
-                        <p class="efficiency">User-Friendly Interface</p>
-                        <p class="text"> Access everything you need in a few clicks.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class=" h-100" data-aos="flip-left">
-                    <img class="w-75" src="assets/images/index/c3.png" alt="">
-                    <div class="pb-30">
-                        <p class="efficiency">Secure & Compliant</p>
-                        <p class="text">Ensure safety with verified contracts and compliance tracking.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class=" h-100" data-aos="flip-left">
-                    <img class="w-75" src="assets/images/index/c4.png" alt="">
-                    <div class="pb-30">
-                        <p class="efficiency">Transparent Pricing</p>
-                        <p class="text">No hidden fees, just straightforward pricing models.</p>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-</section>
-
-<section class="About-us">
-    <div class="container">
-        <div class="row align-items-center">
-
-
-            <div class="col-lg-6 pt-22">
-                <div data-aos="fade-up">
-                    <img src="assets/images/index/truck.png" alt="">
-                    <h4>WHAT WE DO</h4>
-                    <h2 class="mt-0 about-heading">Seamless Digital Logistics</h2>
-                    <p class="text">Knotty Logistics revolutionizes the logistics industry with a fully
-                        integrated, digital-first platform that enhances real-time collaboration and data
-                        sharing. Streamlining operations, improving compliance, and boosting efficiency, it
-                        ensures businesses stay competitive and agile.</p>
-                    <br>
-
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="assets/images/index/1.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p class="fully">A Fully Integrated, Digital-First Approach</p>
-                            <p class="text">Knotty Logistics transforms the logistics industry by offering a
-                                fully digital solution that bridges the gap between contractors, brokers,
-                                trucking companies, and drivers.</p>
-                        </div>
-                        <div class="col-md-2">
-                            <img src="assets/images/index/2.png" alt="">
-                        </div>
-                        <div class="col-md-10">
-                            <p class="fully">Real-Time Collaboration & Data Sharing</p>
-                            <p class="text">From project planning to execution, every step is managed
-                                digitally—eliminating delays, reducing paperwork, and increasing transparency.
-                                With a focus on compliance, efficiency, and automation, Knotty Logistics helps
-                                businesses stay ahead in a fast-moving industry.</p>
-                        </div>
-                    </div>
-                    <div><a href="#" class="hover1">Read More</a></div>
-
-                </div>
-            </div>
-            <div class="col-lg-6">
-
-
-                <img class="w-100" src="assets/images/index/mob.png" alt="">
-
-
-
+                    </div>  -->
             </div>
         </div>
+    </section>
+    <!-- End of 1.3. About-us section -->
 
+    <!-- 1.4. We-Do section -->
 
+    <!-- End of 1.4. We-Do section -->
 
-    </div>
-</section>
-
-
-
-
-
-<!-- 1.5. Logistics section -->
-
-
-
-<!-- End of 1.5. Logistics section -->
-
-<!-- 1.6. Choose-us section -->
-
-<!-- End of 1.6. Choose-us section -->
-
-<!-- 1.7. Achievements section -->
-
-<!-- End of 1.7. Achievements section -->
-
-<!-- 1.8. Quote section -->
-
-<!-- End of 1.9. Case-studies section -->
-
-<!-- 1.10. Testimonials section -->
-<section class="Testimonials">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+    <section class="We-Do">
+        <div class="container">
+            <div class="Content">
                 <img src="assets/images/index/truck.png" alt="">
-                <h4 class="heading">BLOGS</h4>
-                <p class="about-heading">Ensuring Long-Term Success</p>
-                <p class="text">Explore how innovative logistics solutions can streamline operations...</p>
-                <div class="nav-buttons Case-studies">
-                    <button id="prevSlide">&#8592;</button>
-                    <button id="nextSlide">&#8594;</button>
+                <h4>KEY FEATURES</h4>
+                <h2 class="about-heading">Specialist Logistics Features</h2>
+
+            </div>
+            <div class="row gy-4 mt-3">
+                <div class="col-sm-6 col-lg-3">
+                    <div class=" h-100" data-aos="flip-left">
+                        <img class="w-75" src="assets/images/index/c1.png" alt="">
+                        <div class="pb-30">
+                            <p class="efficiency">Efficiency & Automation</p>
+                            <p class="text">Save time with our automated workflows.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class=" h-100" data-aos="flip-left">
+                        <img class="w-75" src="assets/images/index/c2.png" alt="">
+                        <div class="pb-30">
+                            <p class="efficiency">User-Friendly Interface</p>
+                            <p class="text"> Access everything you need in a few clicks.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class=" h-100" data-aos="flip-left">
+                        <img class="w-75" src="assets/images/index/c3.png" alt="">
+                        <div class="pb-30">
+                            <p class="efficiency">Secure & Compliant</p>
+                            <p class="text">Ensure safety with verified contracts and compliance tracking.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class=" h-100" data-aos="flip-left">
+                        <img class="w-75" src="assets/images/index/c4.png" alt="">
+                        <div class="pb-30">
+                            <p class="efficiency">Transparent Pricing</p>
+                            <p class="text">No hidden fees, just straightforward pricing models.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="About-us">
+        <div class="container">
+            <div class="row align-items-center">
+
+
+                <div class="col-lg-6 pt-22">
+                    <div data-aos="fade-up">
+                        <img src="assets/images/index/truck.png" alt="">
+                        <h4>WHAT WE DO</h4>
+                        <h2 class="mt-0 about-heading">Seamless Digital Logistics</h2>
+                        <p class="text">Knotty Logistics revolutionizes the logistics industry with a fully
+                            integrated, digital-first platform that enhances real-time collaboration and data
+                            sharing. Streamlining operations, improving compliance, and boosting efficiency, it
+                            ensures businesses stay competitive and agile.</p>
+                        <br>
+
+
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/images/index/1.png" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fully">A Fully Integrated, Digital-First Approach</p>
+                                <p class="text">Knotty Logistics transforms the logistics industry by offering a
+                                    fully digital solution that bridges the gap between contractors, brokers,
+                                    trucking companies, and drivers.</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img src="assets/images/index/2.png" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fully">Real-Time Collaboration & Data Sharing</p>
+                                <p class="text">From project planning to execution, every step is managed
+                                    digitally—eliminating delays, reducing paperwork, and increasing transparency.
+                                    With a focus on compliance, efficiency, and automation, Knotty Logistics helps
+                                    businesses stay ahead in a fast-moving industry.</p>
+                            </div>
+                        </div>
+                        <div><a target="_blank" href="https://www.knottylogistics.com/app" class="hover1">Read More</a></div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+
+                    <img class="w-100" src="assets/images/index/mob.png" alt="">
+
+
+
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/images/index/s1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/index/s2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/images/index/s3.png" alt="">
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 1.5. Logistics section -->
+
+
+
+    <!-- End of 1.5. Logistics section -->
+
+    <!-- 1.6. Choose-us section -->
+
+    <!-- End of 1.6. Choose-us section -->
+
+    <!-- 1.7. Achievements section -->
+
+    <!-- End of 1.7. Achievements section -->
+
+    <!-- 1.8. Quote section -->
+
+    <!-- End of 1.9. Case-studies section -->
+
+    <!-- 1.10. Testimonials section -->
+    <section class="Testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/index/truck.png" alt="">
+                    <h4 class="heading">BLOGS</h4>
+                    <p class="about-heading">Ensuring Long-Term Success</p>
+                    <p class="text">Explore how innovative logistics solutions can streamline operations...</p>
+                    <div class="nav-buttons Case-studies">
+                        <button id="prevSlide">&#8592;</button>
+                        <button id="nextSlide">&#8594;</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/index/s3.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
+            <!-- Custom Navigation Buttons -->
+
         </div>
+    </section>
+    <!-- End of 1.10. Testimonials section -->
 
-
-
-
-        <!-- Custom Navigation Buttons -->
-
-    </div>
-</section>
-<!-- End of 1.10. Testimonials section -->
-
-<!-- 1.11. Team section -->
-<!-- <section class="Team">
+    <!-- 1.11. Team section -->
+    <!-- <section class="Team">
             <div class="container">
                 <h4>Our Experts</h4>
                 <h2>Meet Our Expert Team</h2>
@@ -416,13 +417,13 @@
                 </div>
             </div>
         </section> -->
-<!-- End of 1.11. Team section -->
+    <!-- End of 1.11. Team section -->
 
-<!-- 1.12. Guide section -->
+    <!-- 1.12. Guide section -->
 
-<!-- End of 1.12. Guide section -->
+    <!-- End of 1.12. Guide section -->
 
-<!-- <section class="Logistics">
+    <!-- <section class="Logistics">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-none d-lg-block"></div>
@@ -441,8 +442,8 @@
                 </div>
             </div>
         </section> -->
-<!-- 1.13. Questions section -->
-<!-- <section class="Questions">
+    <!-- 1.13. Questions section -->
+    <!-- <section class="Questions">
             <div class="container">
                 <h4>Popular Questions</h4>
                 <h2>Client Questions</h2>
@@ -531,10 +532,10 @@
                 </div>
             </div>
         </section> -->
-<!-- End of 1.13. Questions section -->
+    <!-- End of 1.13. Questions section -->
 
-<!-- 1.14. News section -->
-<!-- <section class="News">
+    <!-- 1.14. News section -->
+    <!-- <section class="News">
             <div class="container">
                 <h4>Latest News</h4>
                 <h2 class="my-2">Our Article And Resources</h2>
@@ -614,10 +615,10 @@
                 </div>
             </div>
         </section> -->
-<!-- End of 1.14. News section -->
+    <!-- End of 1.14. News section -->
 
-<!-- 1.15. Subscribe section -->
-<!-- <section class="Subscribe">
+    <!-- 1.15. Subscribe section -->
+    <!-- <section class="Subscribe">
             <div class="container">
                 <div class="position-relative">
                     <div class="row">
@@ -653,7 +654,7 @@
                 </div>
             </div>
         </section> -->
-<!-- End of 1.15. Subscribe section -->
+    <!-- End of 1.15. Subscribe section -->
 
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>

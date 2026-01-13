@@ -129,7 +129,7 @@
                                 All-in-One Platform</li>
                         </ul>
                         <div class="ptb-15">
-                            <a href="https://knottylogistics.com/" class="hover1">Read More</a>
+                            <a target="_blank" href="https://www.knottylogistics.com/app" class="hover1">Read More</a>
                         </div>
                         <!-- <div class="d-flex align-items-stretch justify-content-between gap-3 mx-auto my-3 m-lg-0"
                                 data-aos="flip-up">
@@ -300,7 +300,7 @@
                                     connected, and always up to date.</p>
                             </div>
                         </div>
-                        <div><a href="https://knottylogistics.com/" class="hover1">Book a Demo</a></div>
+                        <div><a target="_blank" href="https://www.knottylogistics.com/contact" class="hover1">Book a Demo</a></div>
 
                     </div>
                 </div>

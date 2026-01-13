@@ -33,45 +33,57 @@
     <!-- End of 1.2. Hero section -->
 
     <div class="pt-50">
-    <div class="container contact-info ">
-        <div class="row text-center text-md-start">
-            <div class="col-md-4">
-                <div class="info-item">
-                    <div class="icon-box">
-                        <img src="assets/images/About/i1.png" alt="">
-                    </div>
-                    <div class="info-text">
-                        <h5>Address</h5>
-                        <p>66 Road Brooklyn Street, 600 New York, USA</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="info-item">
-                    <div class="icon-box">
-                        <img src="assets/images/About/i2.png" alt="">
-                    </div>
-                    <div class="info-text">
-                        <h5>Phone</h5>
-                        <p>(+1) 523-567-987</p>
+        <div class="container contact-info ">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4">
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <img src="assets/images/About/i1.png" alt="">
+                        </div>
+                        <div class="info-text">
+                            <h5>Address</h5>
+                            <p>8844 N Davis Cir., Hayden, ID, United States, Idaho</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="info-item">
-                    <div class="icon-box">
-                        <img src="assets/images/About/i3.png" alt="">
+                <div class="col-md-4">
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <img src="assets/images/About/i2.png" alt="">
+                        </div>
+                        <div class="info-text">
+                            <h5>Phone</h5>
+                            <p>
+                                <a href="tel:+15094383326">
+                                    +1 509-438-3326
+                                </a>
+                            </p>
+                        </div>
                     </div>
-                    <div class="info-text">
-                        <h5>Email</h5>
-                        <p>Your email here....</p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <img src="assets/images/About/i3.png" alt="">
+                        </div>
+                        <div class="info-text">
+                            <h5>Email</h5>
+                            <p>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=office@knottylogistics.com"
+                                    target="_blank" rel="noopener noreferrer">
+                                    office@knottylogistics.com
+                                </a>
+                            </p>
+
+
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- 1.3. About-us section -->
@@ -88,9 +100,10 @@
 
                 <div class="col-lg-6">
 
-                    <p class="message">Send request</p>
+                    <p class="message">Send Request</p>
 
-                    <p class="text">Tell us what you need — just fill in the form and we’ll reply with simple, clear answers you can trust.</p>
+                    <p class="text">Tell us what you need — just fill in the form and we’ll reply with simple, clear
+                        answers you can trust.</p>
 
                     <div class="row">
                         <div class="col-md-6">
@@ -138,7 +151,7 @@
 
 
                     <div class="col-12 pb-20">
-                        <button type="submit" class="btn btn-primary mt-3">Register</button>
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
                     </div>
                 </div>
             </div>
