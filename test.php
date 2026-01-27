@@ -606,10 +606,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-
-<Div class="row">
-    <Div class="container">
-        <Div class="col-md-3"></Div>
-    </Div>
-</Div>
