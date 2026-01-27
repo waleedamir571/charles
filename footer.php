@@ -5,11 +5,11 @@
             <div class="col-md-4">
                 <a href="/" onclick="navigateToParent('/')"> <img class="w-51" src="assets/images/index/logo.png"
                         alt=""></a>
-                <p class="head">Knotty Logistics</p>
-                <p class="ftext">America's first all-in-one unified platform for aggregate logistics.
+                <!-- <p class="head">Knotty Logistics</p> -->
+                <p class="ftext">A product of HOi Solutions.
                 </p>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 offset-md-1">
                 <!-- <h5 class="services">Links</h5> -->
                 <ul class="list-unstyled">
                     <li><a href="https://www.knottylogistics.com/" class="text-white"
@@ -35,7 +35,7 @@
                             <li><a href="#" class="text-white">Rail Freight</a></li> 
                         </ul> 
                     </div> -->
-            <div class="col-md-4">
+            <div class="col-md-3 ">
                 <h5 class="services">Contact Us</h5>
                 <p class="flinks"><i class="fas fa-map-marker-alt"></i> 8844 N Davis Cir., Hayden, ID, United States, Idaho</p>
                 <p class="flinks"><i class="fas fa-phone"></i> (+1) 509-438-3326</p>
