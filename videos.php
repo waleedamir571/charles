@@ -279,9 +279,6 @@
     </section>
     <!-- End of 1.2. Hero section -->
 
-
-    <!-- 1.3. About-us section -->
-
     <body>
         <section class="We-Do">
             <div class="container">
@@ -320,7 +317,7 @@
                                     </div>
                                 </div>
                                 <div class="video-info">
-                                    <h3 class="video-title">Shape of You - Ed Sheeran</h3>
+                                    <h3 class="video-title">Shape of You - Ed Sheeren</h3>
                                     <p class="video-description">Official music video for Ed Sheeran's hit song "Shape
                                         of
                                         You" from his album ÷ (Divide).</p>
@@ -386,7 +383,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
