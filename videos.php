@@ -229,7 +229,6 @@
     <section class="Hero1">
         <?php include 'nav.php'; ?>
 
-
         <div class="container pt-50">
             <div class="row">
                 <div class="col-md-6">
@@ -243,8 +242,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div class="row justify-content-center d-none">
                 <div class="col-md-4">
@@ -278,8 +275,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
     <!-- End of 1.2. Hero section -->
@@ -293,8 +288,7 @@
                 <div class="Content">
                     <img src="assets/images/index/truck.png" alt="">
                     <h4>Video Gallery</h4>
-                    <h2 class="about-heading">What Knotty Does Best</h2>
-
+                    <h2 class="about-heading">Knotty Academy App Tutorial</h2>
                 </div>
             </div>
 
@@ -304,13 +298,12 @@
                 <i class="fas fa-music"></i> The Basics
             </button>
             <button class="tab" data-tab="tab2">
-                <i class="fas fa-gamepad"></i> Faqs
+                <i class="fas fa-gamepad"></i> FAQs
             </button>
             <button class="tab" data-tab="tab3">
                 <i class="fas fa-graduation-cap"></i> Guidebook
             </button>
         </div>
-
 
         <div class="ptb-50">
             <div class="container">
@@ -320,9 +313,9 @@
                             <!-- Music Videos -->
                             <div class="video-card">
                                 <div class="video-thumbnail">
-                                    <img src="https://img.youtube.com/vi/JGwWNGJdvx8/maxresdefault.jpg"
+                                    <img src="https://img.youtube.com/vi/Fw4GoR8tVuQ/maxresdefault.jpg"
                                         alt="Music Video 1">
-                                    <div class="play-button" data-video="JGwWNGJdvx8">
+                                    <div class="play-button" data-video="Fw4GoR8tVuQ">
                                         <i class="fas fa-play"></i>
                                     </div>
                                 </div>
@@ -340,9 +333,9 @@
 
                             <div class="video-card">
                                 <div class="video-thumbnail">
-                                    <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg"
+                                    <img src="https://img.youtube.com/vi/3id0tC57tHs/maxresdefault.jpg"
                                         alt="Music Video 2">
-                                    <div class="play-button" data-video="kJQP7kiw5Fk">
+                                    <div class="play-button" data-video="3id0tC57tHs">
                                         <i class="fas fa-play"></i>
                                     </div>
                                 </div>
@@ -360,23 +353,40 @@
 
                             <div class="video-card">
                                 <div class="video-thumbnail">
-                                    <img src="https://img.youtube.com/vi/09R8_2nJtjg/maxresdefault.jpg"
-                                        alt="Music Video 3">
-                                    <div class="play-button" data-video="09R8_2nJtjg">
+                                    <img src="https://img.youtube.com/vi/itiFhZI_xOA/maxresdefault.jpg"
+                                        alt="Short Video 3">
+                                    <div class="play-button" data-video="itiFhZI_xOA">
                                         <i class="fas fa-play"></i>
                                     </div>
                                 </div>
                                 <div class="video-info">
-                                    <h3 class="video-title">Sugar - Maroon 5</h3>
-                                    <p class="video-description">Maroon 5's "Sugar" music video, featuring surprise
-                                        wedding
-                                        appearances by the band.</p>
+                                    <h3 class="video-title">Short Video 3</h3>
+                                    <p class="video-description">Another YouTube Shorts video for your collection.</p>
                                     <div class="video-meta">
-                                        <span><i class="far fa-clock"></i> 5:01</span>
-                                        <span><i class="far fa-eye"></i> 3.5B views</span>
+                                        <span><i class="far fa-clock"></i> 0:50</span>
+                                        <span><i class="far fa-eye"></i> 1.1M views</span>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="video-card">
+                                <div class="video-thumbnail">
+                                    <img src="https://img.youtube.com/vi/o8p73gVwyBA/maxresdefault.jpg"
+                                        alt="Short Video 4">
+                                    <div class="play-button" data-video="o8p73gVwyBA">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h3 class="video-title">Short Video 4</h3>
+                                    <p class="video-description">Another cool YouTube Shorts video.</p>
+                                    <div class="video-meta">
+                                        <span><i class="far fa-clock"></i> 0:40</span>
+                                        <span><i class="far fa-eye"></i> 800K views</span>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -504,7 +514,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -603,8 +612,6 @@
             </div>
         </section>
 
-
-
         <!-- Video Modal -->
         <div id="videoModal"
             style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.9); z-index:1000; justify-content:center; align-items:center;">
@@ -619,58 +626,6 @@
             </div>
         </div>
 
-        <script>
-            // Tab switching functionality
-            document.querySelectorAll('.tab').forEach(tab => {
-                tab.addEventListener('click', () => {
-                    // Remove active class from all tabs and tab contents
-                    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-
-                    // Add active class to clicked tab
-                    tab.classList.add('active');
-
-                    // Show corresponding tab content
-                    const tabId = tab.getAttribute('data-tab');
-                    document.getElementById(tabId).classList.add('active');
-                });
-            });
-
-            // Video modal functionality
-            const videoModal = document.getElementById('videoModal');
-            const videoPlayer = document.getElementById('videoPlayer');
-            const closeModal = document.getElementById('closeModal');
-
-            document.querySelectorAll('.play-button').forEach(button => {
-                button.addEventListener('click', () => {
-                    const videoId = button.getAttribute('data-video');
-                    videoPlayer.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-                    videoModal.style.display = 'flex';
-                });
-            });
-
-            // Close modal when X is clicked
-            closeModal.addEventListener('click', () => {
-                videoModal.style.display = 'none';
-                videoPlayer.innerHTML = '';
-            });
-
-            // Close modal when clicking outside the video
-            videoModal.addEventListener('click', (e) => {
-                if (e.target === videoModal) {
-                    videoModal.style.display = 'none';
-                    videoPlayer.innerHTML = '';
-                }
-            });
-
-            // Close modal with Escape key
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') {
-                    videoModal.style.display = 'none';
-                    videoPlayer.innerHTML = '';
-                }
-            });
-        </script>
     </body>
 
     </html>
@@ -678,6 +633,57 @@
 
     <!-- 1.11. Team section -->
 
+    <script>
+        // Tab switching functionality
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs and tab contents
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
 
+                // Add active class to clicked tab
+                tab.classList.add('active');
+
+                // Show corresponding tab content
+                const tabId = tab.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Video modal functionality
+        const videoModal = document.getElementById('videoModal');
+        const videoPlayer = document.getElementById('videoPlayer');
+        const closeModal = document.getElementById('closeModal');
+
+        document.querySelectorAll('.play-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const videoId = button.getAttribute('data-video');
+                videoPlayer.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                videoModal.style.display = 'flex';
+            });
+        });
+
+        // Close modal when X is clicked
+        closeModal.addEventListener('click', () => {
+            videoModal.style.display = 'none';
+            videoPlayer.innerHTML = '';
+        });
+
+        // Close modal when clicking outside the video
+        videoModal.addEventListener('click', (e) => {
+            if (e.target === videoModal) {
+                videoModal.style.display = 'none';
+                videoPlayer.innerHTML = '';
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                videoModal.style.display = 'none';
+                videoPlayer.innerHTML = '';
+            }
+        });
+    </script>
 
     <?php include 'footer.php'; ?>
