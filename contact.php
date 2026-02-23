@@ -91,11 +91,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-
-
                     <img class="w-100" src="assets/images/About/contact2.png" alt="">
-
-
                 </div>
 
                 <div class="col-lg-6">
@@ -105,54 +101,45 @@
                     <p class="text">Tell us what you need — just fill in the form and we’ll reply with simple, clear
                         answers you can trust.</p>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="justify">
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6">
                                 <label class="form-label">First Name</label>
-                                <input type="text" class="form-control" placeholder="First Name">
+                                <input type="text" class="form-control" name="first_name" placeholder="First Name">
+                                <span class="text-danger mt-5" id="first_name_error"></span>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="justify">
+                            <div class="col-md-6">
                                 <label class="form-label">Last Name</label>
-                                <input type="text" class="form-control" placeholder="Last Name">
+                                <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+                                <span class="text-danger mt-5" id="last_name_error"></span>
                             </div>
                         </div>
-                    </div>
-                    <br>
 
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="justify ">
+                        <div class="row mt-3">
+                            <div class="col-md-6">
                                 <label class="form-label">Email</label>
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                                <span class="text-danger mt-5" id="email_error"></span>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="justify">
+                            <div class="col-md-6">
                                 <label class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" placeholder="Phone Number">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone Number">
+                                <span class="text-danger mt-5" id="phone_error"></span>
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="justify ">
+
+                        <div class="row mt-3">
+                            <div class="col-md-12">
                                 <label class="form-label">Your Message</label>
-                                <textarea class="form-control" placeholder="message here...."></textarea>
+                                <textarea class="form-control" name="message" placeholder="Message here..."></textarea>
+                                <span class="text-danger mt-5" id="message_error"></span>
                             </div>
                         </div>
 
-                    </div>
-
-
-
-
-                    <div class="col-12 pb-20">
-                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                    </div>
+                        <div class="col-12 pb-20 mt-3">
+                            <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

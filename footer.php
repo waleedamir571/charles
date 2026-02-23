@@ -87,7 +87,6 @@
     data-cf-beacon='{"rayId":"92a8a2b32dad406e","version":"2025.3.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"afef85246d6f4aa98a1a0a5c34b94c75","b":1}'
     crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
-
 <script>
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 2.5,
@@ -154,7 +153,95 @@
             });
         });
     });
-</script>
 
+    
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+$(document).ready(function() {
+
+    $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
+
+        // Clear previous errors & success
+        $('.text-danger').text('');
+        $('#success_message').text('');
+
+        // Disable button
+        $('#submitBtn').prop('disabled', true).text('Submitting...');
+
+        // Frontend validation
+        let first_name = $('input[name="first_name"]').val().trim();
+        let last_name = $('input[name="last_name"]').val().trim();
+        let email = $('input[name="email"]').val().trim();
+        let phone = $('input[name="phone"]').val().trim();
+        let message = $('textarea[name="message"]').val().trim();
+
+        let hasError = false;
+
+        if(first_name === '') { $('#first_name_error').text('First Name is required'); hasError = true; }
+        if(last_name === '') { $('#last_name_error').text('Last Name is required'); hasError = true; }
+        if(email === '') { $('#email_error').text('Email is required'); hasError = true; }
+        else {
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if(!emailPattern.test(email)) { $('#email_error').text('Invalid Email'); hasError = true; }
+        }
+        if(phone === '') { $('#phone_error').text('Phone is required'); hasError = true; }
+        if(message === '') { $('#message_error').text('Message is required'); hasError = true; }
+
+        if(hasError) {
+            $('#submitBtn').prop('disabled', false).text('Submit');
+            return;
+        }
+
+        // AJAX request to Laravel API (api.php route)
+       $.ajax({
+            url: 'https://api.knottylogistics.com/api/v1/contact-us', // full API URL
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                first_name: first_name,
+                last_name: last_name,
+                email: email,
+                phone: phone,
+                message: message
+            }),
+            success: function(response) {
+                $('#submitBtn').prop('disabled', false).text('Submit');
+                $('#contactForm')[0].reset();
+
+                // SweetAlert success
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Message Sent!',
+                    text: response.message,
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'OK'
+                });
+            },
+            error: function(xhr) {
+                $('#submitBtn').prop('disabled', false).text('Submit');
+                if(xhr.responseJSON && xhr.responseJSON.errors){
+                    let errors = xhr.responseJSON.errors;
+                    $.each(errors, function(key, val){
+                        $('#' + key + '_error').text(val[0]);
+                    });
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops!',
+                        text: 'Server error! Please try again later.',
+                        confirmButtonColor: '#d33',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            }
+        });
+
+    });
+
+});
+</script>
 </body>
 </html>
