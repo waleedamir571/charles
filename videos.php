@@ -624,7 +624,7 @@
 
     </body>
 
-    </html>
+    
     <!-- End of 1.10. Testimonials section -->
 
     <!-- 1.11. Team section -->
