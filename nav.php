@@ -1,8 +1,22 @@
-<header>
-    <div class="container borderb">
+
+<style>
+    .navbar {
+  /* position: fixed !important; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; */
+}
+/* body {
+  padding-top: 80px;
+} */
+</style>
+
+<header class="main-header">
+    <div class=" borderb">
         <!-- Main Navbar -->
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container">
                 <a href="https://www.knottylogistics.com/" class="nav-logo" onclick="navigateToParent('/')">
                     <figure><img src="assets/images/index/logo.png" alt="logo"></figure>
                 </a>
@@ -25,7 +39,7 @@
                 <div id="authBtnContainer" class="auth-btn-container">
                     <!-- Auth button will be dynamically updated -->
                 </div>
-                <button onclick="open_aside()" type="button" aria-label="openSide">
+                <button onclick="open_aside()" type="button" aria-label="openSide" class="none1">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
@@ -84,7 +98,7 @@
             } else {
                 // No token -> Show "Login"
                 container.innerHTML = `
-                    <a href="https://www.knottylogistics.com/login" class="hover1" onclick="navigateToParent('/login')">Login</a>
+                    <a href="https://www.knottylogistics.com/login" class="hover1" onclick="navigateToParent('/signup')">Sign up</a>
                 `;
             }
         });
@@ -170,4 +184,15 @@
         updateAuthButtons(token);
     };
 })();
+
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+
+  if (window.scrollY > 100) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
 </script>
+

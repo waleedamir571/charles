@@ -17,8 +17,8 @@
                     <li><a href="https://www.knottylogistics.com/about" class="text-white"
                             onclick="navigateToParent('/about')">About</a></li>
                     <!-- <li><a href="#" class="text-white">Services</a></li> -->
-                    <li><a href="https://www.knottylogistics.com/" class="text-white"
-                            onclick="navigateToParent('/')">Blog</a></li>
+                    <!-- <li><a href="https://www.knottylogistics.com/" class="text-white"
+                            onclick="navigateToParent('/')">Blog</a></li> -->
                     <li><a href="https://www.knottylogistics.com/contact" class="text-white"
                             onclick="navigateToParent('/contact')">Contact Us</a></li>
                     <li><a href="https://www.knottylogistics.com/privacy-policy" class="text-white"
@@ -54,7 +54,7 @@
         <br>
         <hr class="border-light">
         <div class="text-center flinks">
-            <p>&copy; 2025 Knotty Logistic. All rights reserved.</p>
+            <p>&copy; 2025 Knotty Logistics. All rights reserved.</p>
         </div>
     </div>
 </footer>

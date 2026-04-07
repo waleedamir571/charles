@@ -21,7 +21,7 @@
         <?php include 'nav.php'; ?>
 
 
-        <div class="container pt-50">
+        <div class="container pt-50 pt-100">
             <div class="row">
                 <div class="col-md-12">
                     <div data-aos="fade-up">

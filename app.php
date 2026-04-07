@@ -12,7 +12,7 @@
 
         ol,
         ul {
-            list-style: disc;
+            list-style: dnoneisc;
             position: relative;
             /* left: 1rem; */
         }
@@ -33,7 +33,7 @@
 
         <?php include 'nav.php'; ?>
 
-        <div class="container">
+        <div class="container pt-100">
             <div class="row">
                 <div class="col-md-6">
                     <div data-aos="fade-up">
@@ -448,7 +448,7 @@
 
             <div class="col-lg-6">
 
-                <img class="w-100" src="assets/images/About/m6.png" alt="">
+                <img class="w-100" src="assets/images/About/m3.png" alt="">
 
             </div>
             <div class="col-lg-6">
